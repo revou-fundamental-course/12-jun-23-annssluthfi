@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #f3e99f;
+}
+
+body {
+	margin: 70px;
+}
+
+h1 {
+	color: #ff6d60;
+	font-size: 26px;
+	font-family: "JetBrains Mono";
+	font-weight: 800;
+}
+
+#instruksi {
+	width: 957px;
+	color: #000;
+	text-align: justify;
+	font-size: 21px;
+	font-family: Nunito;
+	font-weight: 500;
+}
+
+.suhu {
+	color: #000;
+	text-align: justify;
+	font-size: 21px;
+	font-family: Nunito;
+	font-weight: 700;
+}
+
+.value {
+	margin-top: 50px;
+	display: flex;
+	gap: 20px;
+}
+
+.inputan {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	gap: 10px;
+}
+
+.opsi {
+	display: flex;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.kalkulasi {
+	margin-top: 50px;
+	font-family: "Nunito";
+	font-weight: 700;
+}
+
+.tutorial {
+	margin-top: 50px;
+}
+
+.tutorial p {
+	font-family: "Nunito";
+	color: #000;
+	text-align: justify;
+	font-size: 21px;
+	font-weight: 500;
+    margin-top: 5px;
+}

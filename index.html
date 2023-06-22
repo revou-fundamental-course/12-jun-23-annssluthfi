@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kalkulator Suhu</title>
+
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,400;1,500;1,600;1,700;1,800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<h1>KALKULATOR SUHU</h1>
+		<p id="instruksi">
+			Masukkan suhu derajat Fahrenheit (°F) ke kotak dibawah, lalu klik tombol
+			Konversi untuk mendapatkan hasil konversi dalam bentuk Celcius (°F).
+		</p>
+		<form action="">
+            <div class="value">
+                <div class="inputan">
+                    <label class="suhu" for="kalkulator">Fahrenheit (°F)</label>
+                    <input
+                        type="number"
+                        name="kalkulator"
+                        id="angka"
+                        placeholder="masukkan angka..."
+                    />
+                </div>
+                <img src="assets/Arrow.svg" alt="arrow" />
+                <div class="hasil">
+                    <p class="suhu">Celcius (°C)</p>
+                    <p id="hasil">hasil</p>
+                </div>   
+            </div>
+            <div class="opsi">
+                <button type="submit" id="konversi">Konversi</button>
+                <button id="reset">Reset</button>
+                <button id="reverse">Reverse</button>
+            </div>
+		</form>
+
+		<div class="kalkulasi">
+			<h2>Cara Kalkulasi</h2>
+			<p>5/9 (194°F - 32) = 90°C</p>
+		</div>
+
+		<div class="tutorial">
+			<h1>CARA KONVERSI DARI FAHRENHEIT KE CELCIUS</h1>
+			<p>
+				Suhu S dalam derajat Fahrenheit (°F) sama dengan suhu S dalam derajat
+				Celcius (°C) kali 9/5 tambah 32.
+			</p>
+			<p>S(°C) = 5/9 (S(°F) - 32)</p>
+			<p>atau</p>
+			<p>S(°C) = 0.56 (S(°F) - 32)</p>
+		</div>
+	</body>
+
+    <script src="js/script.js"></script>
+</html>
